@@ -106,7 +106,7 @@ function Header({
   const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     onSearch?.(event.target.value);
   };
-  const FlageImageUrl = "../../public/EG_Flag.jpg";
+  const FlageImageUrl = "/EG_Flag.jpg";
   return (
     <StyledHeader>
       <SearchContainer>
