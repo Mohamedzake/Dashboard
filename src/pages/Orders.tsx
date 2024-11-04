@@ -67,7 +67,6 @@ import {
   TableContainer,
   TableHead,
   TableRow,
-  Paper,
   Checkbox,
   TablePagination,
   Chip,
@@ -310,7 +309,7 @@ const OrdersTable: React.FC = () => {
     setSelected(newSelected);
   };
 
-  const handleChangePage = (event: unknown, newPage: number) => {
+  const handleChangePage = (_event: unknown, newPage: number) => {
     setPage(newPage);
   };
 
@@ -328,7 +327,7 @@ const OrdersTable: React.FC = () => {
       <Typography variant="h6" sx={{ m: 2 }}>
         Orders
       </Typography>
-      <StyledTableContainer component={Paper}>
+      <StyledTableContainer>
         <Table>
           <TableHead>
             <TableRow>

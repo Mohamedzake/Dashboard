@@ -151,6 +151,9 @@ function Chat() {
                 avatar={message.avatar}
                 name={message.name}
                 shortMessage={message.shortMessage}
+                message={""}
+                timestamp={""}
+                isOutgoing={false}
               />
             ))}
           </Div2>
@@ -164,6 +167,7 @@ function Chat() {
                   message={message.message}
                   timestamp={message.timestamp}
                   isOutgoing={message.isOutgoing}
+                  shortMessage={""}
                 />
               ))}
             </DivH>

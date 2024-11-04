@@ -119,7 +119,14 @@ const Div = styled.div`
   grid-template-columns: 1fr 3fr;
   gap: 1.5rem;
 `;
-const skills = [
+// interface Skill {
+//   name: string;
+//   color: "default" | "primary" | "secondary";
+// }
+const skills: Array<{
+  name: string;
+  color: "default" | "primary" | "secondary";
+}> = [
   { name: "HTML", color: "primary" },
   { name: "JavaScript", color: "default" },
   { name: "Sass", color: "default" },
@@ -130,6 +137,17 @@ const skills = [
   { name: "UI", color: "default" },
   { name: "UX", color: "default" },
 ];
+// const skills = [
+//   { name: "HTML", color: "primary" },
+//   { name: "JavaScript", color: "default" },
+//   { name: "Sass", color: "default" },
+//   { name: "React", color: "default" },
+//   { name: "Redux", color: "default" },
+//   { name: "Next.js", color: "default" },
+//   { name: "Material UI", color: "default" },
+//   { name: "UI", color: "default" },
+//   { name: "UX", color: "default" },
+// ];
 const Span = styled.span`
   color: #1976d2;
 `;

@@ -77,13 +77,13 @@ export default function PieAnimation() {
   ];
 
   const valueFormatter = (item: { value: number }) => `${item.value}%`;
-  const handleItemNbChange = (event: Event, newValue: number | number[]) => {
+  const handleItemNbChange = (_event: Event, newValue: number | number[]) => {
     if (typeof newValue !== "number") {
       return;
     }
     setItemNb(newValue);
   };
-  const handleRadius = (event: Event, newValue: number | number[]) => {
+  const handleRadius = (_event: Event, newValue: number | number[]) => {
     if (typeof newValue !== "number") {
       return;
     }
