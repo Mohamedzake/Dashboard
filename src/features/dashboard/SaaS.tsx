@@ -94,10 +94,12 @@ const StatValue = styled.div`
   font-weight: bold;
   margin: 0.5rem 0;
 `;
-
 const StatChange = styled.span<{ isPositive: boolean }>`
   color: ${(props) => (props.isPositive ? "#48bb78" : "#f56565")};
+  background-color: ${(props) => (props.isPositive ? "#e6f7ed" : "#ffd5d5")};
   font-size: 0.875rem;
+  margin-right: 0.5rem;
+  padding: 0.125rem 0.125rem;
 `;
 
 function SaaS() {
@@ -120,25 +122,30 @@ function SaaS() {
       </Header>
 
       <StatsGrid>
-        <StyledCard>
-          <Typography variant="subtitle1">Sales Today</Typography>
+        <StyledCard
+          sx={{
+            background: "#dfebff",
+            color: "#6668b5",
+          }}
+        >
+          <Typography variant="subtitle1">Visitors</Typography>
           <StatValue>2.532</StatValue>
-          <StatChange isPositive={true}>+26% Since last month</StatChange>
+          <StatChange isPositive={true}>+26%</StatChange>Since last month
         </StyledCard>
         <StyledCard>
-          <Typography variant="subtitle1">Sales Today</Typography>
+          <Typography variant="subtitle1">Activity</Typography>
           <StatValue>2.532</StatValue>
-          <StatChange isPositive={true}>+26% Since last month</StatChange>
+          <StatChange isPositive={false}>-26% </StatChange>Since last month
         </StyledCard>
         <StyledCard>
-          <Typography variant="subtitle1">Sales Today</Typography>
+          <Typography variant="subtitle1">Real-Time</Typography>
           <StatValue>2.532</StatValue>
-          <StatChange isPositive={true}>+26% Since last month</StatChange>
+          <StatChange isPositive={true}>+26% </StatChange>Since last month
         </StyledCard>
         <StyledCard>
-          <Typography variant="subtitle1">Sales Today</Typography>
+          <Typography variant="subtitle1">Bounce</Typography>
           <StatValue>2.532</StatValue>
-          <StatChange isPositive={true}>+26% Since last month</StatChange>
+          <StatChange isPositive={false}>-26% </StatChange>Since last month
         </StyledCard>
       </StatsGrid>
 

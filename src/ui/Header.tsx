@@ -2,8 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import SearchIcon from "@mui/icons-material/Search";
 import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined";
-import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
-import LanguageIcon from "@mui/icons-material/Language";
+
+import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
+import Badge from "@mui/material/Badge";
+// import LanguageIcon from "@mui/icons-material/Language";
 
 const StyledHeader = styled.header`
   background-color: #fff;
@@ -70,11 +72,11 @@ const NotificationBadge = styled.div`
   position: relative;
 
   &::after {
-    content: "3";
+    content: "7";
     position: absolute;
     top: -5px;
-    right: -5px;
-    background-color: #ef4444;
+    right: -9px;
+    background-color: #1976d2;
     color: white;
     font-size: 0.75rem;
     padding: 0.125rem 0.375rem;
@@ -84,8 +86,8 @@ const NotificationBadge = styled.div`
 `;
 
 const ProfileAvatar = styled.img`
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   object-fit: cover;
 `;
@@ -104,7 +106,7 @@ function Header({
   const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     onSearch?.(event.target.value);
   };
-
+  const FlageImageUrl = "../../public/EG_Flag.jpg";
   return (
     <StyledHeader>
       <SearchContainer>
@@ -120,19 +122,31 @@ function Header({
 
       <IconsContainer>
         <IconButton>
+          <Badge badgeContent={3} color="primary">
+            <ChatBubbleOutlineIcon color="action" />
+          </Badge>
+        </IconButton>
+        <IconButton>
           <NotificationBadge>
             <NotificationsOutlinedIcon style={{ fontSize: "24px" }} />
           </NotificationBadge>
         </IconButton>
 
-        <IconButton>
-          <HelpOutlineIcon style={{ fontSize: "24px" }} />
-        </IconButton>
-
-        <IconButton>
+        {/* <IconButton>
           <LanguageIcon style={{ fontSize: "24px" }} />
+        </IconButton> */}
+        <IconButton>
+          <img
+            src={FlageImageUrl}
+            alt="Language Flag"
+            style={{
+              width: "24px",
+              height: "24px",
+              marginRight: "4px",
+              borderRadius: "100%",
+            }}
+          />
         </IconButton>
-
         <IconButton>
           <ProfileAvatar src={profileImageUrl} alt="Profile" />
         </IconButton>
@@ -142,3 +156,4 @@ function Header({
 }
 
 export default Header;
+/////////////////////////////

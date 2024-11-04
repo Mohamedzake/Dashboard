@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
         alignItems: "center",
         position: "relative",
         bottom: 0,
-        width: "100%",
+        // width: "100%",
         mt: "auto",
       }}
     >

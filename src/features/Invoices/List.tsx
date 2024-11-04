@@ -363,7 +363,7 @@ const ProductTable: React.FC<{ products: Product[] }> = ({ products }) => {
     setSelected(newSelected);
   };
 
-  const handleChangePage = (newPage: number) => {
+  const handleChangePage = (event: unknown, newPage: number) => {
     setPage(newPage);
   };
 
