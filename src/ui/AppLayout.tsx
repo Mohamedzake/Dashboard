@@ -23,7 +23,7 @@ function AppLayout() {
   };
   return (
     <StyledAppLayout>
-      <Header onSearch={handleSearch} profileImageUrl="/public/avatar.jpg" />
+      <Header onSearch={handleSearch} profileImageUrl="/logo-light.png" />
       <Sidebar />
 
       <Main>
