@@ -38,7 +38,7 @@ const Span = styled.span`
 `;
 const products: Product[] = [
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "Apple iPad Pro",
     itemColor: "Silver",
     price: 1399.0,
@@ -48,7 +48,7 @@ const products: Product[] = [
     reviews: 55,
   },
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "Samsung Galaxy",
     itemColor: "Mystic Black",
     price: 849.99,
@@ -58,7 +58,7 @@ const products: Product[] = [
     reviews: 87,
   },
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "Microsoft Pro 8",
     itemColor: "Platinum",
     price: 1099.99,
@@ -68,7 +68,7 @@ const products: Product[] = [
     reviews: 72,
   },
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "Amazon Tablet",
     itemColor: "Black",
     price: 149.99,
@@ -78,7 +78,7 @@ const products: Product[] = [
     reviews: 120,
   },
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "Lenovo Yoga",
     itemColor: "Iron Grey",
     price: 799.99,
@@ -88,7 +88,7 @@ const products: Product[] = [
     reviews: 42,
   },
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "ASUS Flip",
     itemColor: "Midnight Blue",
     price: 569.99,
@@ -98,7 +98,7 @@ const products: Product[] = [
     reviews: 93,
   },
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "HP Spectre",
     itemColor: "Nightfall Black",
     price: 1499.99,
@@ -108,7 +108,7 @@ const products: Product[] = [
     reviews: 68,
   },
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "Dell Ultrabook",
     itemColor: "Platinum Silver",
     price: 1249.99,
@@ -118,7 +118,7 @@ const products: Product[] = [
     reviews: 102,
   },
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "Acer Aspire",
     itemColor: "Charcoal Black",
     price: 499.99,
@@ -128,7 +128,7 @@ const products: Product[] = [
     reviews: 135,
   },
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "Bose Noise",
     itemColor: "Triple Black",
     price: 379.99,
@@ -138,7 +138,7 @@ const products: Product[] = [
     reviews: 91,
   },
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "Sony Wireless ",
     itemColor: "Black",
     price: 279.99,
@@ -148,7 +148,7 @@ const products: Product[] = [
     reviews: 123,
   },
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "Bluetooth Speaker",
     itemColor: "Teal",
     price: 179.95,
@@ -158,7 +158,7 @@ const products: Product[] = [
     reviews: 67,
   },
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "Beats Wireless ",
     itemColor: "Shadow Gray",
     price: 349.99,
@@ -168,7 +168,7 @@ const products: Product[] = [
     reviews: 78,
   },
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "Sennheiser HD",
     itemColor: "Matte Black",
     price: 199.99,
@@ -178,7 +178,7 @@ const products: Product[] = [
     reviews: 112,
   },
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "Razer Blade",
     itemColor: "Mercury White",
     price: 2599.99,
@@ -188,7 +188,7 @@ const products: Product[] = [
     reviews: 54,
   },
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "Bose Noise",
     itemColor: "Triple Black",
     price: 379.99,
@@ -198,7 +198,7 @@ const products: Product[] = [
     reviews: 91,
   },
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "Sony Wireless ",
     itemColor: "Black",
     price: 279.99,
@@ -208,7 +208,7 @@ const products: Product[] = [
     reviews: 123,
   },
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "Bluetooth Speaker",
     itemColor: "Teal",
     price: 179.95,
@@ -218,7 +218,7 @@ const products: Product[] = [
     reviews: 67,
   },
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "Beats Wireless ",
     itemColor: "Shadow Gray",
     price: 349.99,
@@ -228,7 +228,7 @@ const products: Product[] = [
     reviews: 78,
   },
   {
-    src: "../../public/avatar.jpg",
+    src: "/public/avatar.jpg",
     itemName: "Sennheiser HD",
     itemColor: "Matte Black",
     price: 199.99,

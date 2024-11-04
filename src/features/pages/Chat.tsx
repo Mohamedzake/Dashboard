@@ -42,7 +42,7 @@ const Div2 = styled.div`
 function Chat() {
   const messages1 = [
     {
-      avatar: "../../../public/avatar.jpg",
+      avatar: "/public/avatar.jpg",
       name: "Remy Sharp",
       message:
         "Sit meis deleniti eu, pri vidit meliorc docendi ut, an eum erat animal commodo.",
@@ -51,7 +51,7 @@ function Chat() {
       shortMessage: "Sent a photo",
     },
     {
-      avatar: "../../../public/avatar.jpg",
+      avatar: "/public/avatar.jpg",
       name: "You",
       message:
         "Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodeset te vix.",
@@ -60,7 +60,7 @@ function Chat() {
       shortMessage: "Coffee",
     },
     {
-      avatar: "../../../public/avatar.jpg",
+      avatar: "/public/avatar.jpg",
       name: "Remy Sharp",
       message: "Cum ea graeci tractatos. 😀",
       timestamp: "8 minutes ago",
@@ -70,7 +70,7 @@ function Chat() {
   ];
   const messages = [
     {
-      avatar: "../../../public/avatar.jpg",
+      avatar: "/public/avatar.jpg",
       name: "Remy Sharp",
       message:
         "Sit meis deleniti eu, pri vidit meliorc docendi ut, an eum erat animal commodo.",
@@ -79,7 +79,7 @@ function Chat() {
       shortMessage: "Sent a photo",
     },
     {
-      avatar: "../../../public/avatar.jpg",
+      avatar: "/public/avatar.jpg",
       name: "You",
       message:
         "Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodeset te vix.",
@@ -88,7 +88,7 @@ function Chat() {
       shortMessage: "Coffee",
     },
     {
-      avatar: "../../../public/avatar.jpg",
+      avatar: "/public/avatar.jpg",
       name: "Remy Sharp",
       message: "Cum ea graeci tractatos. 😀",
       timestamp: "8 minutes ago",
@@ -96,7 +96,7 @@ function Chat() {
       shortMessage: "Hello!😀",
     },
     {
-      avatar: "../../../public/avatar.jpg",
+      avatar: "/public/avatar.jpg",
       name: "Remy Sharp",
       message:
         "Sit meis deleniti eu, pri vidit meliorc docendi ut, an eum erat animal commodo.",
@@ -105,7 +105,7 @@ function Chat() {
       shortMessage: "Sent a photo",
     },
     {
-      avatar: "../../../public/avatar.jpg",
+      avatar: "/public/avatar.jpg",
       name: "You",
       message:
         "Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodeset te vix.",
@@ -114,7 +114,7 @@ function Chat() {
       shortMessage: "Coffee",
     },
     {
-      avatar: "../../../public/avatar.jpg",
+      avatar: "/public/avatar.jpg",
       name: "Remy Sharp",
       message: "Cum ea graeci tractatos. 😀",
       timestamp: "8 minutes ago",

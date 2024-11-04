@@ -61,9 +61,9 @@ export default Tasks;
 import { useEffect } from "react";
 import { Box, Stack, Avatar } from "@mui/material";
 
-import person1 from "../../public/avatar.jpg";
-import person2 from "../../public/avatar.jpg";
-// import person3 from "../../public/avatar.jpg";
+import person1 from "/public/avatar.jpg";
+import person2 from "/public/avatar.jpg";
+import person3 from "/public/avatar.jpg";
 import ChatBubbleIcon from "@mui/icons-material/ChatBubble";
 import AddIcon from "@mui/icons-material/Add";
 
@@ -131,16 +131,20 @@ const Task: React.FC = () => {
               </StyledP>
               <Stack direction="row" sx={{ marginTop: "10px" }}>
                 <Avatar
-                  alt="Abdo Nawwar"
+                  alt="zaki"
                   src={person1}
                   sx={{ width: 44, height: 44, mr: "-10px" }}
                 />
                 <Avatar
-                  alt="Abdo Nawwar"
+                  alt="zaki"
                   src={person2}
                   sx={{ width: 44, height: 44, mr: "-10px" }}
                 />
-                <Avatar alt="+2" src="" sx={{ width: 44, height: 44 }} />
+                <Avatar
+                  alt="zaki"
+                  src={person3}
+                  sx={{ width: 44, height: 44 }}
+                />
               </Stack>
               <Stack
                 direction="row"
@@ -159,7 +163,7 @@ const Task: React.FC = () => {
               </StyledP>
               <Stack direction="row" sx={{ marginTop: "10px" }}>
                 <Avatar
-                  alt="Abdo Nawwar"
+                  alt="zaki"
                   src={person1}
                   sx={{ width: 44, height: 44, mr: "-10px" }}
                 />
@@ -178,12 +182,12 @@ const Task: React.FC = () => {
               </StyledP>
               <Stack direction="row" sx={{ marginTop: "10px" }}>
                 <Avatar
-                  alt="Abdo Nawwar"
+                  alt="zaki"
                   src={person1}
                   sx={{ width: 44, height: 44, mr: "-10px" }}
                 />
                 <Avatar
-                  alt="Abdo Nawwar"
+                  alt="zaki"
                   src={person2}
                   sx={{ width: 44, height: 44, mr: "-10px" }}
                 />
@@ -237,12 +241,12 @@ const Task: React.FC = () => {
               </StyledP>
               <Stack direction="row" sx={{ marginTop: "10px" }}>
                 <Avatar
-                  alt="Abdo Nawwar"
+                  alt="zaki"
                   src={person1}
                   sx={{ width: 44, height: 44, mr: "-10px" }}
                 />
                 <Avatar
-                  alt="Abdo Nawwar"
+                  alt="zaki"
                   src={person2}
                   sx={{ width: 44, height: 44, mr: "-10px" }}
                 />
@@ -257,7 +261,7 @@ const Task: React.FC = () => {
               </StyledP>
               <Stack direction="row" sx={{ marginTop: "10px" }}>
                 <Avatar
-                  alt="Abdo Nawwar"
+                  alt="zaki"
                   src={person1}
                   sx={{ width: 44, height: 44, mr: "-10px" }}
                 />
@@ -291,12 +295,12 @@ const Task: React.FC = () => {
               </StyledP>
               <Stack direction="row" sx={{ marginTop: "10px" }}>
                 <Avatar
-                  alt="Abdo Nawwar"
+                  alt="zaki"
                   src={person1}
                   sx={{ width: 44, height: 44, mr: "-10px" }}
                 />
                 <Avatar
-                  alt="Abdo Nawwar"
+                  alt="zaki"
                   src={person2}
                   sx={{ width: 44, height: 44, mr: "-10px" }}
                 />
@@ -315,7 +319,7 @@ const Task: React.FC = () => {
               </StyledP>
               <Stack direction="row" sx={{ marginTop: "10px" }}>
                 <Avatar
-                  alt="Abdo Nawwar"
+                  alt="zaki"
                   src={person1}
                   sx={{ width: 44, height: 44, mr: "-10px" }}
                 />

@@ -55,11 +55,9 @@ const Resetpassword: React.FC = () => {
 
   return (
     <Div>
-      <Img src="../../../public/logo-light.png" alt="Logo" />
+      <Img src="/public/logo-light.png" alt="Logo" />
       <StyledBox>
         <Div1>
-          {/* <StyledAvatar src="../../../public/avatar.jpg" alt="Logo" /> */}
-
           <Typography variant="h5" component="h1" gutterBottom>
             Reset Password
           </Typography>

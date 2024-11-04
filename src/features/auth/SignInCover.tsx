@@ -75,11 +75,11 @@ const SignInCover: React.FC = () => {
 
   return (
     <DivAll>
-      <Img src="../../../public/cover.png" alt="Logo" />
+      <Img src="/public/cover.png" alt="Logo" />
       <Div>
         <StyledBox>
           <Div1>
-            <StyledAvatar src="../../../public/avatar.jpg" alt="Logo" />
+            <StyledAvatar src="/public/avatar.jpg" alt="Logo" />
 
             <Typography variant="h5" component="h1" gutterBottom>
               Welcome back, Lucy!
