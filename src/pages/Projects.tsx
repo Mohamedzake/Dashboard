@@ -237,9 +237,9 @@ const ProjectDashboard: React.FC = () => {
       description:
         "Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.",
       teamMembers: [
-        { name: "Team Member 1", avatar: "/public/avatar.jpg" },
-        { name: "Team Member 2", avatar: "/public/avatar.jpg" },
-        { name: "Team Member 3", avatar: "/public/avatar.jpg" },
+        { name: "Team Member 1", avatar: "/avatar.jpg" },
+        { name: "Team Member 2", avatar: "/avatar.jpg" },
+        { name: "Team Member 3", avatar: "/avatar.jpg" },
       ],
       image: "",
     },
@@ -249,9 +249,9 @@ const ProjectDashboard: React.FC = () => {
       description:
         "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero.",
       teamMembers: [
-        { name: "Team Member 1", avatar: "/public/avatar.jpg" },
-        { name: "Team Member 2", avatar: "/public/avatar.jpg" },
-        { name: "Team Member 3", avatar: "/public/avatar.jpg" },
+        { name: "Team Member 1", avatar: "/avatar.jpg" },
+        { name: "Team Member 2", avatar: "/avatar.jpg" },
+        { name: "Team Member 3", avatar: "/avatar.jpg" },
       ],
       image: "",
     },
@@ -261,9 +261,9 @@ const ProjectDashboard: React.FC = () => {
       description:
         "Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.",
       teamMembers: [
-        { name: "Team Member 1", avatar: "/public/avatar.jpg" },
-        { name: "Team Member 2", avatar: "/public/avatar.jpg" },
-        { name: "Team Member 3", avatar: "/public/avatar.jpg" },
+        { name: "Team Member 1", avatar: "/avatar.jpg" },
+        { name: "Team Member 2", avatar: "/avatar.jpg" },
+        { name: "Team Member 3", avatar: "/avatar.jpg" },
       ],
       image: "",
     },
@@ -273,9 +273,9 @@ const ProjectDashboard: React.FC = () => {
       description:
         "Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo.",
       teamMembers: [
-        { name: "Team Member 1", avatar: "/public/avatar.jpg" },
-        { name: "Team Member 2", avatar: "/public/avatar.jpg" },
-        { name: "Team Member 3", avatar: "/public/avatar.jpg" },
+        { name: "Team Member 1", avatar: "/avatar.jpg" },
+        { name: "Team Member 2", avatar: "/avatar.jpg" },
+        { name: "Team Member 3", avatar: "/avatar.jpg" },
       ],
       image: "",
     },
@@ -285,11 +285,11 @@ const ProjectDashboard: React.FC = () => {
       description:
         "Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.",
       teamMembers: [
-        { name: "Team Member 1", avatar: "/public/avatar.jpg" },
-        { name: "Team Member 2", avatar: "/public/avatar.jpg" },
-        { name: "Team Member 3", avatar: "/public/avatar.jpg" },
+        { name: "Team Member 1", avatar: "/avatar.jpg" },
+        { name: "Team Member 2", avatar: "/avatar.jpg" },
+        { name: "Team Member 3", avatar: "/avatar.jpg" },
       ],
-      image: "../../public/avatar.jpg",
+      image: "/avatar.jpg",
     },
     {
       title: "New company",
@@ -297,11 +297,11 @@ const ProjectDashboard: React.FC = () => {
       description:
         "Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero.",
       teamMembers: [
-        { name: "Team Member 1", avatar: "/public/avatar.jpg" },
-        { name: "Team Member 2", avatar: "/public/avatar.jpg" },
-        { name: "Team Member 3", avatar: "/public/avatar.jpg" },
+        { name: "Team Member 1", avatar: "/avatar.jpg" },
+        { name: "Team Member 2", avatar: "/avatar.jpg" },
+        { name: "Team Member 3", avatar: "/avatar.jpg" },
       ],
-      image: "../../public/avatar.jpg",
+      image: "/avatar.jpg",
     },
     {
       title: "Upgrade to latest",
@@ -309,11 +309,11 @@ const ProjectDashboard: React.FC = () => {
       description:
         "Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.",
       teamMembers: [
-        { name: "Team Member 1", avatar: "/public/avatar.jpg" },
-        { name: "Team Member 2", avatar: "/public/avatar.jpg" },
-        { name: "Team Member 3", avatar: "/public/avatar.jpg" },
+        { name: "Team Member 1", avatar: "/avatar.jpg" },
+        { name: "Team Member 2", avatar: "/avatar.jpg" },
+        { name: "Team Member 3", avatar: "/avatar.jpg" },
       ],
-      image: "../../public/avatar.jpg",
+      image: "/avatar.jpg",
     },
     {
       title: "Refactor backend ",
@@ -321,11 +321,11 @@ const ProjectDashboard: React.FC = () => {
       description:
         "Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo.",
       teamMembers: [
-        { name: "Team Member 1", avatar: "/public/avatar.jpg" },
-        { name: "Team Member 2", avatar: "/public/avatar.jpg" },
-        { name: "Team Member 3", avatar: "/public/avatar.jpg" },
+        { name: "Team Member 1", avatar: "/avatar.jpg" },
+        { name: "Team Member 2", avatar: "/avatar.jpg" },
+        { name: "Team Member 3", avatar: "/avatar.jpg" },
       ],
-      image: "../../public/avatar.jpg",
+      image: "/avatar.jpg",
     },
   ];
 
