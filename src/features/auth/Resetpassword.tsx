@@ -55,7 +55,7 @@ const Resetpassword: React.FC = () => {
 
   return (
     <Div>
-      <Img src="/public/logo-light.png" alt="Logo" />
+      <Img src="/logo-light.png" alt="Logo" />
       <StyledBox>
         <Div1>
           <Typography variant="h5" component="h1" gutterBottom>

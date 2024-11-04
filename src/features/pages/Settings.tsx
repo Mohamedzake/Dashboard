@@ -148,7 +148,7 @@ const Publicinfo: React.FC = () => {
         </Box>
       </form>
       <Div1>
-        <StyledAvatar src="/public/avatar.jpg" alt="Logo" />
+        <StyledAvatar src="/avatar.jpg" alt="Logo" />
 
         <Box sx={{ mb: 1, mt: 1 }}>
           <Button type="submit" variant="contained" color="primary">

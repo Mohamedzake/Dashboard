@@ -71,10 +71,10 @@ const SignIn: React.FC = () => {
 
   return (
     <Div>
-      <Img src="/public/logo-light.png" alt="Logo" />
+      <Img src="/logo-light.png" alt="Logo" />
       <StyledBox>
         <Div1>
-          <StyledAvatar src="/public/avatar.jpg" alt="Logo" />
+          <StyledAvatar src="/avatar.jpg" alt="Logo" />
 
           <Typography variant="h5" component="h1" gutterBottom>
             Welcome back, Lucy!

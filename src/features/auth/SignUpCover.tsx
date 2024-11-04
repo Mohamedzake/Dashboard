@@ -61,7 +61,7 @@ const SignUpCover: React.FC = () => {
 
   return (
     <DivAll>
-      <Img src="/public/cover.png" alt="Logo" />
+      <Img src="/cover.png" alt="Logo" />
       <Div>
         <StyledBox>
           <Div1>

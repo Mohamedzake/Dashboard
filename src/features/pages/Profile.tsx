@@ -175,7 +175,7 @@ function Profile() {
         <ProfileDetails
           name="Lucy Lavender"
           title="Lead Developer"
-          avatar="/public/avatar.jpg"
+          avatar="/avatar.jpg"
           skills={skills}
           location="San Francisco, SA"
           workplace="Material UI"

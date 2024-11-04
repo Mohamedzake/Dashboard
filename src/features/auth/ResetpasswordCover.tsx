@@ -58,12 +58,10 @@ const ResetpasswordCover: React.FC = () => {
 
   return (
     <DivAll>
-      <Img src="/public/cover.png" alt="Logo" />
+      <Img src="/cover.png" alt="Logo" />
       <Div>
         <StyledBox>
           <Div1>
-           
-
             <Typography variant="h5" component="h1" gutterBottom>
               Reset Password
             </Typography>
